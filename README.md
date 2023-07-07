@@ -5,6 +5,7 @@ You can watch some demos [here](https://drive.google.com/drive/folders/1KHv8n_rd
 ![demo-gif](demo.gif)
 
 ## Disclaimer
+
 This software is meant to be a productive contribution to the rapidly growing AI-generated media industry. It will help artists with tasks such as animating a custom character or using the character as a model for clothing etc.
 
 The developers of this software are aware of its possible unethical applicaitons and are committed to take preventative measures against them. It has a built-in check which prevents the program from working on inappropriate media including but not limited to nudity, graphic content, sensitive material such as war footage etc. We will continue to develop this project in the positive direction while adhering to law and ethics. This project may be shut down or include watermarks on the output if requested by law.
@@ -20,6 +21,7 @@ Users of this software are expected to use this software responsibly while abidi
 - **Acceleration:** If you have a good GPU and are ready for solving any software issues you may face, you can enable GPU which is wayyy faster. To do this, first follow the basic install instructions given above and then follow GPU-specific instructions [here](https://github.com/s0md3v/roop/wiki/2.-Acceleration).
 
 ## How do I use it?
+
 > Note: When you run this program for the first time, it will download some models ~300MB in size.
 
 Executing `python run.py` command will launch this window:
@@ -52,7 +54,13 @@ options:
 Looking for a CLI mode? Using the -s/--source argument will make the run program in cli mode.
 
 ## Credits
+
 - [henryruhs](https://github.com/henryruhs): for being an irreplaceable contributor to the project
 - [ffmpeg](https://ffmpeg.org/): for making video related operations easy
 - [deepinsight](https://github.com/deepinsight): for their [insightface](https://github.com/deepinsight/insightface) project which provided a well-made library and models.
 - and all developers behind libraries used in this project.
+
+python run.py --execution-provider coreml --frame-processor face_swapper face_enhancer
+
+Mac 下面提速命令
+python run.py --execution-provider coreml --frame-processor face_swapper
